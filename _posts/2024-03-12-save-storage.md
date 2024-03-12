@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Storage Saver"
+title: "Compress logs on-the-fly"
 categories: log management
 ---
 
@@ -27,5 +27,7 @@ Under heavy load there can be needed also option veryRobustZip="on". The explain
 > In order to avoid this degradation in compression both flushOnTXEnd and asyncWriting parameters must be set to “off” and also ioBufferSize must be raised from default “4k” value to at least “32k”. This way a reasonable compression factor is maintained, similar to a non-blocked gzip file:
 > 
 > ```veryRobustZip="on" ioBufferSize="64k" flushOnTXEnd="off" asyncWriting="off"```
+
+Here is a real world example. All logfiles are compressed upon arrival. The uncompressed size is calculated during the log archiving process:
 
 
