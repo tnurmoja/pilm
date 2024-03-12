@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Save The ~~World~~ Storage"
+title: "Storage Saver"
 categories: log management
 ---
 
