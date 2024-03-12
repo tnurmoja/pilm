@@ -61,7 +61,7 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
   
 include:
-    - _pages
+    - _posts
 
 exclude: 
     - .gitignore
