@@ -7,3 +7,6 @@
 #
 layout: home
 ---
+
+Here we will have big picture.
+
