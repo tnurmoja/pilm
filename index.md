@@ -9,4 +9,4 @@ layout: home
 ---
 
 Here we will have big picture.
-
+![Big picture](https://raw.githubusercontent.com/tnurmoja/pilm/main/diagrams/a.png)
