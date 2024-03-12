@@ -30,4 +30,4 @@ Under heavy load there can be needed also option veryRobustZip="on". The explain
 
 Here is a real world example: 775GB compressed logs vs 12.78TB uncompressed. All logfiles are compressed upon arrival. The uncompressed size is calculated during the log archiving process:
 
-![Archive_stats](https://raw.githubusercontent.com/tnurmoja/tnurmoja/main/_posts/pictures/compress-stats.PNG)
+![Archive_stats](https://raw.githubusercontent.com/tnurmoja/pilm/tnurmoja-metrics/_posts/pictures/compress-stats.PNG)
