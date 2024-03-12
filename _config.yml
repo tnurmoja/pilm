@@ -1,12 +1,4 @@
-title: Resources
-author:
-  name: Toomas Nurmoja  
-  email: toomas.nurmoja@mail.ee
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Security Engineer
+title: Collecting Ideas Is Killing Your Innovation
 
 # Build settings
 
