@@ -6,7 +6,7 @@ categories: log management
 
 ## How to save storage packing logs on-the-fly.
 
-Rsyslog has functionality to save the logs to files already in compressed format either gzip and newer versions also zlib format.
+Rsyslog has functionality to save the logs to file in compressed format either gzip format and newer rsyslog versions support also zlib format.
 
 https://www.rsyslog.com/doc/configuration/modules/omfile.html
 
