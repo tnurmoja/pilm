@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Metrics Collection"
-categories: log management
+categories: metrics
 ---
 
 We copy once per day logs from rsyslog nodes to long term archive. As we iterate over all files it makes sense to collect metrics about our logs and logfiles. 
