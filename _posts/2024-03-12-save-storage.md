@@ -28,6 +28,6 @@ Under heavy load there can be needed also option veryRobustZip="on". The explain
 > 
 > ```veryRobustZip="on" ioBufferSize="64k" flushOnTXEnd="off" asyncWriting="off"```
 
-Here is a real world example. All logfiles are compressed upon arrival. The uncompressed size is calculated during the log archiving process:
+Here is a real world example: 775GB compressed logs vs 12.78TB uncompressed. All logfiles are compressed upon arrival. The uncompressed size is calculated during the log archiving process:
 
-
+![Archive_stats](./pictures/compress-stats.PNG)
