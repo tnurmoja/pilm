@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Storage Saver"
+title: "Compress logs on-the-fly"
 categories: log management
 ---
 
