@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To be more green in log management"
+title: "Save the storage"
 categories: log management
 ---
 
