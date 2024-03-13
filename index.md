@@ -10,3 +10,36 @@ layout: home
 
 Here we will have big picture.
 ![Big picture](https://raw.githubusercontent.com/tnurmoja/pilm/main/diagrams/lab.drawio.png)
+
+Message format.
+Metadata header:
+ * service
+ * subidentifier
+ * filename
+ * retention
+Metadata header shall be as small as possible. It will be added to each message.
+
+Pick up messages:
+ * socket
+ * syslog
+ * file
+ * kafka
+
+Lookup tables
+
+Rulesets
+
+Templates
+ * filenames 
+
+Forward messages:
+ * UDP
+ * TCP
+ * RELP
+ * AMPQ
+
+Metrics
+Archive
+ * location  templates
+ * packing on-the-fly
+Analytics
