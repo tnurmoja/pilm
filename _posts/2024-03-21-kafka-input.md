@@ -43,7 +43,6 @@ ruleset(name="kafka_process"
             set $!v_appname=$app-name;
             set $!v_msg=$msg;
 
-            # Setting v_svc and v_id values to uppercase for concistancy
             set $!v_svc=exec_template("t_svc_uppercase");
             set $!v_id=exec_template("t_id_uppercase");
             set $!v_ret = "Y01";
