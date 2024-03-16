@@ -5,7 +5,15 @@ categories: metrics
 ---
 
 We copy once per day logs from rsyslog nodes to long term archive. As we iterate over all files it makes sense to collect metrics about our logs and logfiles. 
-
+```
+module(load="impstats"
+       format="json"
+       interval="60"
+       severity="6"
+       log.syslog="off"
+       ResetCounters="on"
+       log.file="/sbp/logs/local/stats.log")
+```
 ```python
 def gzipfile_info(filename):
 
