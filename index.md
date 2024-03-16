@@ -9,7 +9,7 @@ layout: home
 ---
 
 Here we will have big picture.
-![Big picture](https://raw.githubusercontent.com/tnurmoja/pilm/main/diagrams/lab.drawio.png)
+![Big picture](https://raw.githubusercontent.com/tnurmoja/pilm/main/diagrams/lab.drawio-high.png)
 
 Message format.
 Metadata header:
