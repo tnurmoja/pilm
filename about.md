@@ -4,9 +4,7 @@ title: Recources
 permalink: /about/
 ---
 
-> Yes, it is all about the Money
-
-You can replace Money with resources (time, people etc)
+> Yes, it is all about the ~~Money~~ resources
 
 ---
 
