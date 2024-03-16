@@ -11,6 +11,11 @@ layout: home
 Here we will have big picture.
 ![Big picture](https://raw.githubusercontent.com/tnurmoja/pilm/main/diagrams/lab.drawio-high.png)
 
+ * separate log collection/archiving from analysis
+ * add metadata to log record:
+   * to provide access control
+   * to change analysis destination  
+
 Message format.
 Metadata header:
  * service
@@ -39,7 +44,9 @@ Forward messages:
  * AMPQ
 
 Metrics
+ * rsyslog pstats 
 Archive
  * location  templates
  * packing on-the-fly
 Analytics
+ * Sentinel
