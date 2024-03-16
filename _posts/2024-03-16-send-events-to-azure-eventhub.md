@@ -41,8 +41,6 @@ ruleset(name="forward_event_hub"
         queue.maxdiskspace="100g"
         queue.timeoutenqueue="0")
         {
-            {% if adx_event_hub_authorization_name is defined %}
-
             action(type="omazureeventhubs"
                 name="a_forward_event_hub_omazureeventhubs"
                 azurehost="{{ adx_event_hub_host }}"
@@ -61,8 +59,6 @@ ruleset(name="forward_event_hub"
                 queue.timeoutWorkerthreadShutdown="10000"
                 queue.timeoutshutdown="1000"
             )
-            {% endif %}
-
             action(type="omfile"
                 name="a_forward_event_hub_omfile_json"
                 dirCreateMode="0750"
