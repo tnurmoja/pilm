@@ -8,6 +8,8 @@ permalink: /about/
 
 You can replace Money with resources (time, people etc)
 
+---
+
 [I deleted my Azure Sentinel workspace.](https://tales-from-a-security-professional.com/i-deleted-my-azure-sentinel-workspace-c62daf3283a2) Richard de Vries
  
 > ### Too expensive
