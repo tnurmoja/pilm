@@ -9,7 +9,13 @@ categories: log management
 Rsyslog has functionality to save the logs to file in compressed format either gzip format and newer rsyslog versions support also zlib format.
 
 https://www.rsyslog.com/doc/configuration/modules/omfile.html
-
+```
+module(load="builtin:omfile"
+       dirCreateMode="0750"
+       fileCreateMode="0640"
+       compression.driver="zlib")
+```
+You can use only gzip or zlib not both on the same time
 ```
 action(type="omfile"
        name="a_default_log_storage"
